@@ -15,7 +15,7 @@ while True:
         while True:
             Admin_username=input("Enter User Name: ")
             if Admin_username=="Mani":
-                Admin_password=input("Enter Password: ")
+                Admin_password=input("Enter Password: ")# tacking password from the Admin
                 if Admin_password=="1234":
                     while True:
                         print(f"selecct the Following option \n 1-Add New Question \n 2-Modify Questions \n 3-Delete Question \n 4-view All Questions \n 5- View Users \n 6-Exit ")
