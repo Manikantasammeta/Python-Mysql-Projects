@@ -7,6 +7,8 @@ db_connection = con.connect(
     database="Quiz"          # The name of the database you want to connect to
 )
 
+
+
 print("wlcome to Quiz")
 while True:
     print(f"selecct the Following option \n 1-Admin Login \n 2-User Login")
